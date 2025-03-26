@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>If-Statements</title>
+</head>
+<body>
+    <input type="number" id="ageInput" placeholder="Enter your age">
+    <button onclick="checkDrivingAge()">Can I drive?</button>
+    <p id="drivingMessage"></p>
+    
+    <input type="number" id="timeInput" placeholder="Enter time(0-23)">
+    <button onclick="greetUser()">Check Greeting</button>
+    <p id="greeting"></p>
+
+    <input type="text" id="weatherInput" placeholder="Enter weather">
+    <button onclick="checkWeather()">Check Weather</button>
+    <p id="weatherMessage"></p>
+
+    <input type="number" id="gradeInput" placeholder="Enter grade(0-100)">
+    <button onclick="checkGrade()">Check Grade</button>
+    <p id="gradeResult"></p>
+
+    <input type="number" id="voteAgeInput" placeholder="Enter your age">
+    <button onclick="checkVotingAge()">Can I vote?</button>
+    <p id="voting"></p>
+
+    <input type="text" id="passwordInput" placeholder = "Enter your password">
+    <button onclick="checkPassword()">Check Password Strength</button>
+    <p id="passwordStrength"></p>
+
+    <input type="text" id="dayInput" placeholder="Enter a day">
+    <button onclick="checkDay()">What day is it?</button>
+    <p id="dayMessage"></p>
+
+    <input type="number" id="tempInput" placeholder="Enter temp">
+    <button onclick="checkTemperature()">Check Temperature</button>
+    <p id="tempMessage"></p>
+
+    <input type="text" id="loginInput" placeholder="Are you logged in?(yes/no)">
+    <button onclick="checkLogin()">Check Login</button>
+    <p id="loginStatus"></p>
+
+    <input type="number" id="mealInput" placeholder="Enter the hour(0-23)">
+    <button onclick="suggestMeal()">What should I eat?</button>
+    <p id="mealSuggestion"></p>
+
+    <h1 id="countLabel">0</h1>
+    <div id="buttonContainer">
+        <button id="decreaseBtn" class="buttons">Decrease</button>
+        <button id="resetBtn" class="buttons">Reset</button>
+        <button id="increaseBtn" class="buttons">Increase</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
